@@ -36,7 +36,7 @@ if __name__ == '__main__':
     numeros = [1, -5, 4, 3]
 
     # numeros_potencia = list(map....)
-    numeros_potencia = list(map(lambda x: 2**x,numeros))
-    print(numeros_potencia)
+    numeros_potencia = list(map(lambda x: x**2,numeros))
+    print('Números elevados a la potencia indicada:',numeros_potencia)
 
-    print("terminamos")
+    print("terminamos") 

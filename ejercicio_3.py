@@ -20,10 +20,10 @@ if __name__ == '__main__':
     # números, conteniendo del 0 al 10 inclusive
 
     # lista_0_10 = [......]
-    lista = [i for i in range(10)]  # Primera forma: la que pide el ejercicio.
+    lista = [i for i in range(11)]  # Primera forma: la que pide el ejercicio.
     print(lista)
 
-    lista = list(range(10))         # Segunda forma...
+    lista = list(range(11))         # Segunda forma...
     print(lista)
 
     # 2)
