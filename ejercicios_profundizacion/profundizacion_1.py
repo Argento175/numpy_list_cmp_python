@@ -1,6 +1,6 @@
 # Numpy [Python]
 # Ejercicios de profundización
-
+import random
 # Autor: Inove Coding School
 # Version: 2.0
 
@@ -33,5 +33,7 @@ if __name__ == '__main__':
     print('Comenzamos a divertirnos!')
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
-
+    numero = random.randint(1,10)
+    #numeros = [x = random.randint(1,10) in range(3)]
+    print(numero)
     print("terminamos")
